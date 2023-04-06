@@ -1,6 +1,5 @@
 * {
-	border: 1px dashed red;
-	min-height: 10px;
+	font-family: "IBM Plex Sans", sans-serif;
 }
 
 body {
@@ -12,21 +11,23 @@ body {
 	width: 400px;
 	height: 300px;
 	margin: auto;
+	border-radius: 0.25rem;
 }
 
 .postcard-header {
 	display: flex;
+	margin: 15px 15px 0 15px;
 }
 
 .postcard-header img {
 	width: 50px;
 	height: 50px;
-	margin: 0;
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
 h1 {
 	width: 344px;
-	margin: 0;
 }
 
 .postcard-body {
@@ -39,23 +40,27 @@ h1 {
 
 .body-left,
 .body-right {
-	padding: 5px;
+	padding: 15px 15px 0 15px;
+	width: 50%;
 }
 
 input {
 	border: none;
-	border-bottom: 1px;
+	border-bottom: 1px solid lightgrey;
 }
 
 p {
-	font-size: 0.8em;
+	font-size: 1rem;
 }
 
 .postcard-footer {
 	text-align: center;
+	margin-bottom: 15px;
 }
 
 button {
-	background-color: lightgray;
+	background-color: #cecece;
 	padding: 5px;
+	border-radius: 0.25rem;
+	cursor: pointer;
 }
